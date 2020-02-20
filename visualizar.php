@@ -88,12 +88,12 @@ if($sale->getPayment()->getStatus() == 2){
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="consulta.html">Consulta</a>
+                <a class="nav-link" href="consulta.php">Consulta</a>
             </li>
             </ul>
         </div>
     </nav>
-    <form method=POST action=consulta1.php>
+    <form method=GET action=consulta.php>
     <div class="container mt-5">
         <div class="col-md-8 offset-md-2">
             <div class="card">
